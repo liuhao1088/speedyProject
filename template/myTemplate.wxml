@@ -1,6 +1,15 @@
 <template name="headerImg">
-  <view class="header">
-    <image mode="widthFix" src="{{url}}">
-    </image>
+  <view class="container">
+    <view class="header">
+      <image mode="widthFix" src="{{url}}">
+      </image>
+    </view>
+
+    <view class="tag_maxdiv" style=" padding-bottom: 100rpx;">
+      <view class="imgItem" wx:for="{{urlList}}" id="{{index}}" wx:key="id" bindtap="toProduct">
+        <image mode="widthFix" style="border-radius: 20rpx;" src="{{item}}">
+        </image>
+      </view>
+    </view>
   </view>
 </template>

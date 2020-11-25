@@ -1,12 +1,5 @@
 <import src="/template/myTemplate.wxml"></import>
-<view class="container">
-  <template is="headerImg" data="{{...item}}"></template>
+<template is="headerImg" data="{{...item}}"></template>
 
-  <view class="tag_maxdiv" style=" padding-bottom: 100rpx;">
-    <view class="imgItem"  wx:for="{{urlList}}" id="{{index}}" wx:key="id" bindtap="toProduct">
-      <image mode="widthFix" style="border-radius: 20rpx;" src="{{item}}">
-      </image>
-    </view>
-  </view>
+  
 
-</view>
