@@ -1,14 +1,24 @@
 <view class="container">
-  <view class="tag_maxdiv" style="width:100%;">
-   
+  <view class="lbt_div">
+    <swiper indicator-dots autoplay circular style="height:100%;">
+      <swiper-item wx:for="{{imgUrl}}" wx:key="imgUrl">
+        <image mode="widthFix" src="{{item}}" />
+      </swiper-item>
+    </swiper>
   </view>
 
-  <view class="tag_maxdiv" style="width: 100%;">
-    <view class="yxzc_div">
-      <image mode="widthFix"
-        src="https://img11.360buyimg.com/ddimg/jfs/t1/122822/19/16818/26516/5f9cff42Edc27ae6e/8effc0c64e2f09c2.png">
+  <view class="tag_maxdiv">
+    <view class="imgItem" wx:for="{{urlList}}" id="{{index}}" wx:key="id" bindtap="toProduct">
+      <image mode="widthFix" style="border-radius: 20rpx;"
+        src="{{item}}">
       </image>
     </view>
+  </view>
+
+  <view class="footer">
+      <image mode="widthFix"
+        src="https://img12.360buyimg.com/ddimg/jfs/t1/128786/5/19839/159821/5fbdb9f4E369f60c4/2b80962540323889.jpg">
+      </image>
   </view>
 
   

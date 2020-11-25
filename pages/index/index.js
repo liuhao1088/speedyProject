@@ -5,7 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imgUrl:[
+      'https://img14.360buyimg.com/ddimg/jfs/t1/130213/8/17180/165679/5fbdba09Ec6de8f8f/93f75ee31016cc5b.jpg',
+      'https://img10.360buyimg.com/ddimg/jfs/t1/125491/25/19915/126626/5fbdc061E4b5fef33/0616c71d64d3b99c.jpg',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/143409/39/15708/126373/5fbdc072Ee4b95bda/f554445ecfcd7075.jpg',
+    ],
+    urlList:[
+      'https://img13.360buyimg.com/ddimg/jfs/t1/121089/24/19832/86925/5fbdbae1Ec37ee7b9/0af4ab5dd58cba11.jpg',
+      'https://img14.360buyimg.com/ddimg/jfs/t1/154353/30/7030/66124/5fbdbb01Eead6257f/8db3a85f358f0ddf.jpg',
+    ]
+  },
+
+  toProduct(event){
+    let id = event.currentTarget.id;
+    if(id === '0'){
+      wx.navigateTo({
+        url: '/pages/streamMedia/streamMedia',
+      })
+    }else{
+      wx.navigateTo({
+        url: '/pages/hidden/hidden',
+      })
+    }
   },
 
   /**
