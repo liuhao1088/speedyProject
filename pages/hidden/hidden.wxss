@@ -1,1 +1,10 @@
-/* pages/hidden/hidden.wxss */
+.container{
+  background-color: #ffe400;
+}
+
+.tag_maxdiv {
+  width: 85%;
+  float: left;
+  margin-top: 60rpx;
+  padding-bottom: 60rpx;
+}

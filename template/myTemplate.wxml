@@ -13,3 +13,23 @@
     </view>
   </view>
 </template>
+
+<template name="detail">
+  <view class="container">
+    <view class="tag_maxdiv" style="width: 100%; margin-top:0rpx;">
+      <image mode="widthFix" style="border-radius: 0rpx;" src="{{url}}">
+      </image>
+    </view>
+
+    <view class="video_div" wx:if="{{videoUrl}}">
+      <video class="video_nr" src="{{videoUrl}}" object-fit="cover">
+      </video>
+    </view>
+
+    <view class="tag_maxdiv" wx:if="{{detailList.length}}" wx:for="{{detailList}}" wx:key="id">
+      <image mode="widthFix" src="{{item}}">
+      </image>
+    </view>
+
+  </view>
+</template>

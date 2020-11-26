@@ -21,6 +21,46 @@ Page({
     },
     
   },
+  toProduct(event){
+    let id = event.currentTarget.id;
+    if(id === '0'){
+      wx.navigateTo({
+        url: '/pages/gOneNineMax/gOneNineMax',
+      })
+    }else if(id === '1'){
+      wx.navigateTo({
+        url: '/pages/gThreePro/gThreePro',
+      })
+    }else if(id === '2'){
+      wx.navigateTo({
+        url: '/pages/gOneEightMax/gOneEightMax',
+      })
+    }else if(id === '3'){
+      wx.navigateTo({
+        url: '/pages/yEightPlus/yEightPlus',
+      })
+    }else if(id === '4'){
+      wx.navigateTo({
+        url: '/pages/sFives/sFives',
+      })
+    }else if(id === '5'){
+      wx.navigateTo({
+        url: '/pages/gSixs/gSixs',
+      })
+    }else if(id === '6'){
+      wx.navigateTo({
+        url: '/pages/gOneThreeMax/gOneThreeMax',
+      })
+    }else if(id === '7'){
+      wx.navigateTo({
+        url: '/pages/cTwoPro/cTwoPro',
+      })
+    }else{
+      wx.navigateTo({
+        url: '/pages/cFivess/cFivess',
+      })
+    }
+  },
 
   /**
    * 生命周期函数--监听页面加载

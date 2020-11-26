@@ -4,7 +4,12 @@
   z-index: -1;
 }
 
-
+.tag_maxdiv{
+  width: 85%;
+  float: left;
+  margin-top: 60rpx;
+  padding-bottom: 60rpx;
+}
 
 .lbt_div {
   width: 100%;
@@ -12,12 +17,4 @@
   float: left;
 }
 
-
-
-.footer{
-  width: 100%;
-  margin-top: 40rpx;
-  background-color: #232323;
-  float: left;
-}
 
