@@ -3,6 +3,7 @@
 }
 
 image {
+  height: 100vh;
   border-radius: 10rpx;
 }
 
