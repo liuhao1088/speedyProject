@@ -19,7 +19,34 @@ Page({
     },
    
   },
-
+  toProduct(event){
+    let id = event.currentTarget.id;
+    if(id === '0'){
+      wx.navigateTo({
+        url: '/pages/aTwo/aTwo',
+      })
+    }else if(id === '1'){
+      wx.navigateTo({
+        url: '/pages/mTwo/mTwo',
+      })
+    }else if(id === '2'){
+      wx.navigateTo({
+        url: '/pages/mSixa/mSixa',
+      })
+    }else if(id === '3'){
+      wx.navigateTo({
+        url: '/pages/mSixs/mSixs',
+      })
+    }else if(id === '4'){
+      wx.navigateTo({
+        url: '/pages/mSixc/mSixc',
+      })
+    }else{
+      wx.navigateTo({
+        url: '/pages/mSixPlus/mSixPlus',
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

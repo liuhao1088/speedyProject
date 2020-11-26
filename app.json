@@ -10,7 +10,12 @@
     "pages/gOneThreeMax/gOneThreeMax",
     "pages/cTwoPro/cTwoPro",
     "pages/cFivess/cFivess",
-    
+    "pages/aTwo/aTwo",
+    "pages/mTwo/mTwo",
+    "pages/mSixa/mSixa",
+    "pages/mSixs/mSixs",
+    "pages/mSixc/mSixc",
+    "pages/mSixPlus/mSixPlus",
     "pages/streamMedia/streamMedia",
     "pages/hidden/hidden"
   ],
