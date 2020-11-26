@@ -1,1 +1,1 @@
-/* pages/mSixs/mSixs.wxss */
+@import "/template/myTemplate.wxss";

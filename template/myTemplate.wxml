@@ -33,3 +33,12 @@
 
   </view>
 </template>
+
+<template name="header">
+  <view class="container">
+    <view class="header">
+      <image style="border-radius: 0;" mode='aspectFill' src="{{url}}">
+      </image>
+    </view>
+  </view>
+</template>
