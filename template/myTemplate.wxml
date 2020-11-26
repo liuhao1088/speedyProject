@@ -35,10 +35,6 @@
 </template>
 
 <template name="header">
-  <!-- <view class="container">
-    <view class="header"> -->
-      <image style="border-radius: 0;" src="{{url}}">
-      </image>
-    <!-- </view>
-  </view> -->
+  <image style="border-radius: 0;" src="{{url}}">
+  </image>
 </template>
