@@ -1,4 +1,1 @@
 @import "/template/myTemplate.wxss";
-.container {
-  padding-bottom: 0rpx;
-}

@@ -6,8 +6,13 @@ Page({
    */
   data: {
     item:{
-      url:'https://img12.360buyimg.com/ddimg/jfs/t1/140957/32/15641/557655/5fbf22e9Ea2fa2103/4e0c58c3cfc9b5e4.jpg',
-     
+      url:'https://img12.360buyimg.com/ddimg/jfs/t1/143777/34/15745/420109/5fbf599dE9521fcff/b87cf63c13334b47.jpg',
+      detailList:[
+       'https://img12.360buyimg.com/ddimg/jfs/t1/154623/7/7429/431486/5fbf59afE528221be/03fb20ba3bf230f9.jpg',
+       'https://img10.360buyimg.com/ddimg/jfs/t1/149586/22/15748/557804/5fbf59bcE937015b6/f78f000ecda32812.jpg',
+       'https://img14.360buyimg.com/ddimg/jfs/t1/140878/31/15921/584202/5fbf59caEc43a52bc/c6fd7285e106d5fe.jpg',
+       'https://img10.360buyimg.com/ddimg/jfs/t1/144036/2/15913/419417/5fbf59daE1278888e/0974a21f9b467de2.jpg',
+      ]
     }
   },
 

@@ -1,2 +1,2 @@
 <import src="/template/myTemplate.wxml"></import>
-<template is="header" data="{{...item}}"></template>
+<template is="detail" data="{{...item}}"></template>
