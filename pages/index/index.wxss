@@ -14,6 +14,10 @@
   padding-bottom: 60rpx;
 }
 
+.imgItem{
+  margin-top: 10rpx;
+}
+
 .lbt_div {
   width: 100%;
   height: 550rpx;
