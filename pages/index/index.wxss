@@ -1,13 +1,16 @@
-.container{
+/* .container{
   background: url('https://img14.360buyimg.com/ddimg/jfs/t1/139382/34/15773/268544/5fbdbd3eE006e5776/28a04d0ab632643b.png') no-repeat;
   background-size:100% 100%;
   z-index: -1;
+} */
+.container {
+  background-color: #ffe400;
 }
 
 .tag_maxdiv{
-  width: 85%;
+  width: 90%;
   float: left;
-  margin-top: 60rpx;
+  margin-top: 70rpx;
   padding-bottom: 60rpx;
 }
 
