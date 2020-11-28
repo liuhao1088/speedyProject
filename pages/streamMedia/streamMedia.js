@@ -6,7 +6,7 @@ Page({
    */
   data: {
     item:{
-      url:'https://img10.360buyimg.com/ddimg/jfs/t1/141883/33/15568/176240/5fbdc3cfEe351ad99/9d551e70d7ad113b.jpg',
+      url:'https://img12.360buyimg.com/ddimg/jfs/t1/153877/32/7567/172566/5fc1be18E34ff889a/504b550f18453fdb.jpg',
       urlList:[
         'https://img11.360buyimg.com/ddimg/jfs/t1/152619/25/7219/97129/5fbdc467E8bdd5ac9/9a068b92f597ba4c.jpg',
         'https://img13.360buyimg.com/ddimg/jfs/t1/122743/35/19975/116645/5fbdc474E4a6244c8/497bb26d6616e886.jpg',
