@@ -11,8 +11,9 @@ Page({
       'https://img14.360buyimg.com/ddimg/jfs/t1/143409/39/15708/126373/5fbdc072Ee4b95bda/f554445ecfcd7075.jpg',
     ],
     urlList:[
-      'https://img11.360buyimg.com/ddimg/jfs/t1/141398/40/15882/318090/5fc06663E4d04d335/b4a774e0ce71f612.png',
       'https://img13.360buyimg.com/ddimg/jfs/t1/149292/11/16059/239034/5fc06671Ee068b6ae/a75579574db52e58.png',
+      'https://img11.360buyimg.com/ddimg/jfs/t1/141398/40/15882/318090/5fc06663E4d04d335/b4a774e0ce71f612.png',
+     
     ]
   },
 

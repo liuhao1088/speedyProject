@@ -6,13 +6,8 @@ Page({
    */
   data: {
     item:{
-      url:'https://img12.360buyimg.com/ddimg/jfs/t1/143777/34/15745/420109/5fbf599dE9521fcff/b87cf63c13334b47.jpg',
-      detailList:[
-       'https://img12.360buyimg.com/ddimg/jfs/t1/154623/7/7429/431486/5fbf59afE528221be/03fb20ba3bf230f9.jpg',
-       'https://img10.360buyimg.com/ddimg/jfs/t1/149586/22/15748/557804/5fbf59bcE937015b6/f78f000ecda32812.jpg',
-       'https://img14.360buyimg.com/ddimg/jfs/t1/140878/31/15921/584202/5fbf59caEc43a52bc/c6fd7285e106d5fe.jpg',
-       'https://img10.360buyimg.com/ddimg/jfs/t1/144036/2/15913/419417/5fbf59daE1278888e/0974a21f9b467de2.jpg',
-      ]
+      url:'https://img11.360buyimg.com/ddimg/jfs/t1/147242/29/16051/484810/5fc1b58cE6627c159/fb5b0fda3cc2f8da.jpg',
+      
     }
   },
 
