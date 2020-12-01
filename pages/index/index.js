@@ -7,7 +7,7 @@ Page({
   data: {
     imgUrl:[
       'https://img14.360buyimg.com/ddimg/jfs/t1/130213/8/17180/165679/5fbdba09Ec6de8f8f/93f75ee31016cc5b.jpg',
-      'https://img13.360buyimg.com/ddimg/jfs/t1/130354/2/17891/124165/5fc44d52E2430dd51/99753bd2e106fa29.jpg',
+      'https://img12.360buyimg.com/ddimg/jfs/t1/135228/16/17936/129578/5fc59e42E0836f306/c52cce76ef8bb817.jpg',
       'https://img13.360buyimg.com/ddimg/jfs/t1/139969/5/16038/290231/5fc06645E788f72e3/84c76231b63d581b.jpg',
       'https://img11.360buyimg.com/ddimg/jfs/t1/153419/32/7825/132329/5fc44d30E77052f32/0ddf7cbef34cc7c2.jpg',
     ],
